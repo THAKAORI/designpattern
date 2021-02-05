@@ -27,3 +27,5 @@
 - 受け入れ側に処理を追加することなく、処理の追加ができる。Acceptorにaccept関数を作っておいて、外部のクラスの処理をさせる
 ## Chain of Responsibility
 - レベル別などで順番に処理を渡していき、適合するレベルで処理できる
+## Facade
+- AbstractFactoryの具体例、窓口が操作をすべて代行する
