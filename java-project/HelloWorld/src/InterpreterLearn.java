@@ -112,7 +112,7 @@ class Wait implements Operator {
 
 public class InterpreterLearn {
     public static void main(String[] args) {
-        Operand ekitai = new Ingredient("液体スープ");
-        Operand result = new 
+        Operand ramen = new Expression(new Plus(new Wait(3, new Plus(new Plus(new Ingredient("粉末スープ"), new Ingredient("麺")).execute(), new Ingredient("お湯")).execute()).execute(), new Ingredient("液体スープ")));
+        System.out.println(ramen.getOperandString());
     }
 }
