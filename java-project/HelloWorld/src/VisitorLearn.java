@@ -58,7 +58,7 @@ class SuzukiHome extends Home implements TeacherAcceptor{
 }
 
 
-public class Visitor {
+public class VisitorLearn {
     public static void main(String args[]){
         SuzukiHome home = new SuzukiHome();
         home.praisedChild();
